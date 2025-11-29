@@ -10,7 +10,7 @@ email = 71215065+junnjiee@users.noreply.github.com
 	ci = commit
 	st = status
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [pull]
 	rebase = true 			 # Rebase (instead of merge) on pull
 [push]
