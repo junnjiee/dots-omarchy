@@ -1,18 +1,21 @@
 # dots-omarchy
 
-Personal edits of the default Omarchy `/.config` files.
+Edits of the default Omarchy config files, as well as install scripts.
 
 ## Managing dotfiles in Omarchy
 
 ### Applying the dotfiles
 
-GNU Stow is used to manage symlinks to `/.config`
+I used [GNU Stow](https://man.archlinux.org/man/stow.8) to manage symlinks.
 
-For folders/files prefixed with `dot-`, using the option `--dotfiles`, will convert the `dot-` prefixes into `.`. 
+For folders/files prefixed with `dot-`, using the option `--dotfiles` will convert the `dot-` prefixes into `.`, example: `dot-config` > `.config`.
 
 If the file already exists in target folder, use `--adopt`, then select wanted changes using your version control manager.
 
 ### Reverting to the default config
 
-All original Omarchy configs can be found in `/.local/share/omarchy/config`. To restore a config, simply copy paste the config file/folder into `/.config`
+All original Omarchy configs can be found in `/.local/share/omarchy/config`. To restore a config, simply copy + paste the config file/folder into `/.config`.
 
+## Using the install scripts
+
+Run `./main.sh` in the `install_scripts` directory. It will run every individual script in the `install_scripts/apps` folder.
