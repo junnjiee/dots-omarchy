@@ -12,3 +12,6 @@ source ~/.local/share/omarchy/default/bash/rc
 
 # make applications in ~/.local/bin available globally
 export PATH="$HOME/.local/bin:$PATH"
+
+# omarchy lazyvim alias
+alias lazyvim="NVIM_APPNAME=nvim nvim"
