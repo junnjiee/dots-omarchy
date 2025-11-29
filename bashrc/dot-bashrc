@@ -10,5 +10,5 @@ source ~/.local/share/omarchy/default/bash/rc
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 
-# make applications in ~/.local/bin available in terminal
+# make applications in ~/.local/bin available globally
 export PATH="$HOME/.local/bin:$PATH"
