@@ -34,8 +34,8 @@ keybind = super+control+shift+alt+l=resize_split:right,100
 mouse-scroll-multiplier = 0.95
 
 # Additional keyboard bindings
-keybind = control+shift+q=close_surface
-keybind = control+shift+h=goto_split:left
-keybind = control+shift+j=goto_split:down
-keybind = control+shift+k=goto_split:up
-keybind = control+shift+l=goto_split:right
+# keybind = control+shift+q=close_surface
+# keybind = control+shift+h=goto_split:left
+# keybind = control+shift+j=goto_split:down
+# keybind = control+shift+k=goto_split:up
+# keybind = control+shift+l=goto_split:right
