@@ -19,3 +19,8 @@ All original Omarchy configs can be found in `/.local/share/omarchy/config`. To 
 ## Using the install scripts
 
 Run `./main.sh` in the `install_scripts` directory. It will run every individual script in the `install_scripts/apps` folder.
+
+### After installing apps and configuring dotfiles
+
+1. Set-up ssh key for remote version control managers (`ssh-keygen`).
+2. Use [mise](https://mise.jdx.dev/) for managing dev tools/runtimes
