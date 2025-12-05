@@ -20,7 +20,12 @@ All original Omarchy configs can be found in `/.local/share/omarchy/config`. To 
 
 Run `./main.sh` in the `install_scripts` directory. It will run every individual script in the `install_scripts/apps` folder.
 
-### After installing apps and configuring dotfiles
+## Further set-up
 
-1. Set-up ssh key for remote version control managers (`ssh-keygen`).
-2. Use [mise](https://mise.jdx.dev/) for managing dev tools/runtimes
+- Set-up ssh key for remote version control managers (`ssh-keygen`).
+- Use [mise](https://mise.jdx.dev/) for managing dev tools/runtimes
+
+### LazyVim
+
+- Use Stow to add `.lua` plugin files to further configure LazyVim
+- [LazyExtras](https://www.lazyvim.org/extras) provides sensible plugin add-ons for dev tooling and language support
