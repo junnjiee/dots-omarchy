@@ -18,7 +18,7 @@ All original Omarchy configs can be found in `/.local/share/omarchy/config`. To 
 
 ## Using the install scripts
 
-Run `./main.sh` in the `install_scripts` directory. It will run every individual script in the `install_scripts/apps` folder.
+Run `./main.sh` in the `installs` directory. It will run every individual script in the `installs/apps` folder.
 
 ## Further set-up
 
