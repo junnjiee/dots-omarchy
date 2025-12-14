@@ -13,5 +13,3 @@ source ~/.local/share/omarchy/default/bash/rc
 # make applications in ~/.local/bin available globally
 export PATH="$HOME/.local/bin:$PATH"
 
-# personal nvim config alias
-alias nv="NVIM_APPNAME=nvim-personal nvim"
