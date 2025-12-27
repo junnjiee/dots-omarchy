@@ -10,7 +10,15 @@ I used [GNU Stow](https://man.archlinux.org/man/stow.8) to manage symlinks.
 
 For folders/files prefixed with `dot-`, using the option `--dotfiles` will convert the `dot-` prefixes into `.`, example: `dot-config` > `.config`.
 
+```bash
+stow --dotfiles <package-name>
+```
+
 If the file already exists in target folder, use `--adopt`, then select wanted changes using your version control manager.
+
+```bash
+stow --dotfiles --adopt <package-name>
+```
 
 ### Reverting to the default config
 
